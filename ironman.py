@@ -9,7 +9,7 @@ piece3=[[(-60, -220), (-80, -240), (-110, -220), (-120, -250),(-90, -280), (-60,
 turtle.hideturtle()
 turtle.bgcolor('black')
 turtle.setup(500,600)
-turtle.title("I AM IRONMAN")
+turtle.title("Ironman")
 piece1Goto=(0,120)
 piece2Goto=(0,-30)
 piece3Goto=(0,-220)
@@ -18,7 +18,7 @@ def draw_piece(piece,pieceGoto):
     turtle.penup()
     turtle.goto(pieceGoto)
     turtle.pendown()
-    turtle.color('red')
+    turtle.color('yellow')
 
     turtle.begin_fill()
     for i in range(len(piece[0])):
